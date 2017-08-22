@@ -14,7 +14,7 @@
 		</encoder>
 	</appender>
 
-	<!-- 按照每天生成日志文件 dsd-->
+	<!-- 按照每天生成日志文件 dsdsd-->
 	<appender name="FILE"
 		class="ch.qos.logback.core.rolling.RollingFileAppender">
 		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
