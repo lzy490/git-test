@@ -14,7 +14,7 @@
 		</encoder>
 	</appender>
 
-	<!-- 按照每天生成日志文件 -->
+	<!-- 按照每天生成日志文件 dsd-->
 	<appender name="FILE"
 		class="ch.qos.logback.core.rolling.RollingFileAppender">
 		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
@@ -34,7 +34,7 @@
 			<charset>UTF-8</charset>
 		</encoder>
 	</appender>
-	
+
 	<!-- 按照每天生成日志文件d -->
 	<appender name="FILE_ERROR"
 		class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -55,7 +55,7 @@
 			<charset>UTF-8</charset>
 		</encoder>
 		<!--日志文件最大的大小 -->
-		<!-- <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy"> 
+		<!-- <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
 			<MaxFileSize>10MB</MaxFileSize> </triggeringPolicy> -->
 	</appender>
 
